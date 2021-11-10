@@ -543,13 +543,15 @@ footer {
     /* margin-bottom: 50px */
 }
 
-#swot {
+#swot {}
+
+.swot {
     padding: 50px 15px;
     border-bottom: 1px solid #dcd9d9;
-    text-align: center
+    text-align: center !important
 }
 
-#swot h2 {
+.swot h2 {
     color: #374054;
     /* margin-bottom: 50px */
 }
