@@ -17,12 +17,19 @@
         * {
             box-sizing: border-box;
         }
-        
+
+        table,
+        th,
+        td {
+            border: 1px solid #74808a;
+        }
+
         .row1 {
             display: flex;
         }
+
         /* Create two equal columns that sits next to each other */
-        
+
         .column1 {
             flex: 50%;
             padding: 10px;
@@ -38,9 +45,8 @@
         }
 
         .img1 {
-        border-radius: 50%;
+            border-radius: 50%;
         }
-
     </style>
 
 </head>
@@ -71,12 +77,6 @@
                 <a href="#skills">Skills</a>
             </li>
             <li>
-                <a href="#reflection">Reflection</a>
-            </li>
-            <li>
-                <a href="#swot">SWOT Analysis</a>
-            </li>
-            <li>
                 <a href="#contact">Contact</a>
             </li>
         </ul>
@@ -86,8 +86,9 @@
     <div id="lead">
         <div id="lead-content">
             <h1>Mohamed Akeel</h1>
-            <h2>Software Engineer</h2>
-            <a href="https://drive.google.com/file/d/1LixqgoxFKcrWuAeNIntKZBIbWz3ExE89/view?usp=sharing" target="_blank" class="btn-rounded-white">Download Resume</a>
+            <h2>Pega System Architect at Virtusa</h2>
+            <a href="https://drive.google.com/file/d/1Kdzd8Eolsj25zWf-5ckTjezKcpydragf/view?usp=sharing" target="_blank"
+                class="btn-rounded-white">Download Resume</a>
         </div>
         <!-- End #lead-content -->
 
@@ -106,19 +107,14 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-4">
-                    <!-- <h2 class="heading">About Me</h2>
-                    <br> -->
-                    <img class="img1" width="71%"src="images/me.jpg">
+                    <h2 class="heading">About Me</h2>
                 </div>
                 <div class="col-md-8">
                     <p>
-                        Completed B.Sc. degree in Information Technology from Rajarata University of Sri Lanka. Skilled in Programming languages, Web Development, WordPress Web Design, MS Office, Graphic design and Video editing.
-                        </br></br>Front End Development – Angular Framework (HTML, CSS, JavaScript, Typescript)
-                        </br>Back End Development – Laravel Framework (PHP, SQL)
-                        </br>Hands on experience in Postman
-                        </br>WordPress Web Designing, Plugin Development, Woocommerce Plugin
-                    </br></br> My current goal is to work in a IT company as a Software Engineer for three to five years
-                     but the main goal and the dream is to be a Lecturer in future.
+                        B.Sc. degree in Information Technology with GPA - 3.54 (Second Class, Upper Division) and Batch
+                        Topper in Faculty of Applied Sciences from Rajarata University of Sri Lanka. Certified Pega
+                        System Architect at Pegasystems and currently working as Associate Engineer - Technology (Pega)
+                        at Virtusa.
                     </p>
                 </div>
             </div>
@@ -129,31 +125,75 @@
     <div id="experience" class="background-alt">
         <h2 class="heading">Experience</h2>
         <div id="experience-timeline">
-            <div data-date="August 2021 – September 2021">
-                <h3>TEQ2O Technologies</h3>
-                <h4>Software Developer Trainee</h4>
+            <div data-date="March 2022 – Present">
+                <h3>Virtusa (PVT) LTD</h3>
+                <h4>Pega System Architect</h4>
                 <p>
-                    Followed 1 month training programe. Front End Development – Angular Framework (HTML, CSS, JavaScript, Typescript)
-                    </br>Back End Development – Laravel Framework (PHP, SQL)
-                    </br>Hands on experience in Postman
-                </p>
-            </div>
+                    During my stay at Virtusa (PVT) LTD, have been deployed to below listed PEGA projects.
+                    <br><br>
 
-            <div data-date="January 2020 – April 2021">
-                <h3>UGASS</h3>
-                <h4>Secretary</h4>
-                <p>
-                    UGASS - Undergraduate Association for Social Services.
+                <table style="width:90%">
+                    <tr>
+                        <th>Client</th>
+                        <th>Virtusa (PVT) LTD (Internal)</th>
+                    </tr>
+                    <tr>
+                        <td>Project Name:</td>
+                        <td>POC 2 Motor Insurance</td>
+                    </tr>
+                    <tr>
+                        <td>Delivered By:</td>
+                        <td>Virtusa (PVT) LTD SL</td>
+                    </tr>
+                    <tr>
+                        <td>Start Date:</td>
+                        <td>July 2022</td>
+                    </tr>
+                    <tr>
+                        <td>End Date:</td>
+                        <td>September 2022</td>
+                    </tr>
+                    <tr>
+                        <td>Duration:</td>
+                        <td>3 months</td>
+                    </tr>
+                    <tr>
+                        <td>Role:</td>
+                        <td>System Architect</td>
+                    </tr>
+                    <tr>
+                        <td>Product Version:</td>
+                        <td>Pega 8.7 V</td>
+                    </tr>
+                </table>
+                <br>
+                <p><strong>Project Description:</strong><br>
+                    ABC is an insurance company which offers various insurance policies ranging from personal to
+                    corporate. Recently they have purchased PRPC to streamline their processes and to build a set of
+                    BPM applications for their core business functionalities. They have identified Motor insurance
+                    business unit as the starting point and you are assigned to build a pilot project for the Motor
+                    insurance policy request business process.</p>
+                <br>
+                <p><strong>Role and Responsibilities:</strong>
                 </p>
-            </div>
-
-            <div data-date="October 2016 – Present">
-                <h3>Eastern Cancer Care & Hospice</h3>
-                <h4>Media Coordinator</h4>
-                <p>
-                    Eastern Cancer Care Hospice (EASCCA), is a non-profitable charity organization. Its main functions are to help the cancer patients and their families. As name implies, ‘Eastern’ tells only the location of the center but its services reach across the island
-                    for any cancer patients from any part of our motherland.
-                </p>
+                <ul>
+                    <li>
+                        Performed several researches to identify the limitations and deficiencies of the proposed
+                        technologies, processes and methods.
+                    </li>
+                    <li>
+                        Analyze the requirements from the development perspective and prepared the technical
+                        design documents.
+                    </li>
+                    <li>
+                        Understand business requirements and application requirements.
+                    </li>
+                    <li>Interact with mentor to understand the integration of the other system.</li>
+                    <li>Carried out the development tasks under the agile development methodology in Pega 8.7
+                        BPM toll according to the documented user requirements.</li>
+                    <li>Executed the unit test cases and debugged the system in large scale to ensure that logic and
+                        syntax are correct and accurate according to standard testing protocols.</li>
+                </ul>
             </div>
         </div>
     </div>
@@ -163,12 +203,11 @@
         <h2 class="heading">Education</h2>
         <div class="education-block">
             <h3>Rajarata University of Sri Lanka</h3>
-            <span class="education-date">November 2017 - December 2021</span>
-            <h4>Bachelor of Science in Information Technology</h4>
+            <span class="education-date">November 2017 - June 2022</span>
+            <h4 style="    margin: 0 0 15px 0;">Bachelor of Science in Information Technology</h4>
             <p>
-                Current GPA - 3.52 </br>
-                </br> Modules: Data Structures(C++), Design and Analysis of Algorithms, Object-oriented programming (C++), Database Systems, Procedural Programming (C++), Web development(HTML, PHP, CSS, Javascript, XML), Software Engineering, Operating Systems,
-                Image Processing and Analysis(MATLAB), Electronics, English for Professional purpose, Philosophy of Natural Sciences
+                GPA - 3.54 (Second Class, Upper Division)<br>
+                Batch Topper in Faculty of Applied Sciences
             </p>
         </div>
         <!-- End .education-block -->
@@ -205,7 +244,9 @@
                     <div class="project-info">
                         <h3>ePocket</h3>
                         <p>
-                            ePocket is a Personal Finance Management. Manage your personal finances, income, expenditure all in one place without any hassle. Pick your categories of expenses and income and just enter the values. We’ll take care of the rest.
+                            ePocket is a Personal Finance Management. Manage your personal finances, income, expenditure
+                            all in one place without any hassle. Pick your categories of expenses and income and just
+                            enter the values. We’ll take care of the rest.
                         </p>
                         <a href="https://epocketweb.000webhostapp.com/" target="blank">View Project</a>
                     </div>
@@ -221,7 +262,9 @@
                     <div class="project-info">
                         <h3>Deepfake Video Detection</h3>
                         <p>
-                            The aim of this project is to develop a system for detecting deepfake videos with the use of neural networks. This project immensely helps the general public to detect fake videos from real ones, which can be very useful to not consume false information
+                            The aim of this project is to develop a system for detecting deepfake videos with the use of
+                            neural networks. This project immensely helps the general public to detect fake videos from
+                            real ones, which can be very useful to not consume false information
                         </p>
                         <a href="#">View Project</a>
                     </div>
@@ -237,7 +280,9 @@
                     <div class="project-info">
                         <h3>Body Fantacy</h3>
                         <p>
-                            Body Fantasy is a fashion destination for the latest trends. The Body Fantasy brings multiple categories including Cosmetics, Perfumes, Fashion Bags, Accessories, Gift Ideas, Nail Art, Ladies Wear and Beauty under the convenience of a single roof.
+                            Body Fantasy is a fashion destination for the latest trends. The Body Fantasy brings
+                            multiple categories including Cosmetics, Perfumes, Fashion Bags, Accessories, Gift Ideas,
+                            Nail Art, Ladies Wear and Beauty under the convenience of a single roof.
                         </p>
                         <a href="http://bodyfantasy.infinityfreeapp.com/" target="blank">View Project</a>
                     </div>
@@ -253,147 +298,45 @@
     <div id="education">
         <h2 class="heading">Certifications</h2>
         <div class="education-block">
+            <h3>Certified Pega System Architect (PCSA) 86V1</h3>
+            <span class="education-date">Issued on September 2022</span>
+            <h4>Pegasystems</h4>
+        </div>
+
+        <div class="education-block">
             <h3>Programming for Everybody (Python Lang.)</h3>
             <span class="education-date">Issued on December 2020</span>
             <h4>University of Michigan</h4>
         </div>
-        <!-- End .education-block -->
 
         <div class="education-block">
             <h3>Excel Skills for Business: Essentials</h3>
             <span class="education-date">Issued on September 2021</span>
             <h4>Macquarie University</h4>
         </div>
-
-        <div class="education-block">
-            <h3>PHP, SQL, C++, HTML</h3>
-            <span class="education-date">Issued on November 2018</span>
-            <h4>SoloLearn</h4>
-        </div>
-
-        <!-- End .education-block -->
     </div>
     <!-- End #certification -->
 
     <div id="skills">
-        <h2 class="heading">Skills</h2>
+        <h2 class="heading">Core Competencies and Skills</h2>
         <ul>
+            <li>PRPC Case Management 8.7</li>
+            <li>CSA</li>
+            <li>My SQL</li>
+            <li>HTML</li>
+            <li>CSS</li>
             <li>JavaScript</li>
-            <li>Python</li>
-            <li>Ruby</li>
-            <li>Go</li>
-            <li>Node.js</li>
-            <li>AngularJs</li>
-            <li>React</li>
-            <li>Laravel</li>
-            <li>Java</li>
+            <li>PHP</li>
             <li>C</li>
-            <li>C#</li>
             <li>C++</li>
-            <li>Ruby on Rails</li>
-            <li>JavaScript</li>
-            <li>Python</li>
-            <li>Ruby</li>
-            <li>Go</li>
-            <li>Node.js</li>
-            <li>AngularJs</li>
-            <li>React</li>
-            <li>Elixir</li>
-            <li>Java</li>
-            <li>C</li>
             <li>C#</li>
-            <li>C++</li>
-            <li>.Net</li>
+            <li>Problem Solving Skills</li>
+            <li>Analytical Skills</li>
+            <li>Communication Skills/Team Player</li>
+            <li>Time Management</li>
         </ul>
     </div>
     <!-- End #skills -->
-
-    <div id="reflection">
-        <h2 class="heading">Reflection</h2>
-        <div style="width: 800px; margin:0 auto; text-align: center;">
-            <div>
-                <h3>Pre-University</h3>
-                <p>
-                    After my A/L examination I was working with short film crew and we made 3 short films and a documentary. Then I was working for a Cancer care hospise as a media partner in our home town. After got the A/L results I started to work in ESDA association
-                    as an editor. I was equipped with strong leadership and communication skills. In addition to that, I was engaged in several extracurricular activities such as chess competitions, leadership programs and etc.
-                </p>
-
-                <div class="row1">
-                    <div class="column2">
-                        <div class="row1">
-                            <img src="images/short film.jpg" width="100%"/>
-                        </div>
-                        <br>
-                        <div class="row1">
-                            <img src="images/me2.jpg" width="100%"/>
-                        </div>
-                    </div>
-                    
-                    <div class="column2">
-                        <img src="images/esda.jpg" width="100%"/>
-                    </div>
-                </div>
-
-                <br>
-
-            <div>
-                <h3>First Year in the University</h3>
-                <p>
-                    In my first year of the University I got selected as Undergraduate association secretary and I worked for one and half years.
-                </p>
-            </div>
-
-            <div>
-                <h3>Second Year in the University</h3>
-                <p>
-                    In my second year I was working in many Software projects and gained knowledge and skills. I participated many events at the University organized by our University and other organization.
-                </p>
-            </div>
-
-            <div>
-                <h3>Third Year in the University</h3>
-                <p>
-                    In Third year we were not be able to do anything outside because of COVID situation. So we did something via online. I completed more than 5 courses in online and gained Certificates. And also I was working in our final year project.
-                </p>
-            </div>
-        </div>
-    </div>
-    <!-- End #reflection -->
-
-    <div id="swot" class="swot background-alt">
-        <h2 class="heading">SWOT Analysis</h2>
-        <div class="row1">
-            <div class="column1">
-                <img src="images/strength.png" style="width: 50px; height: auto;">
-                <h2>Strenght</h2>
-                <p>Self learning</p>
-                <p>Communication skills</p>
-                <p>Problem solving</p>
-            </div>
-            <div class="column1">
-                <img src="images/broken.png" style="width: 50px; height: auto;">
-                <h2>Weaknesses</h2>
-                <p>Takes things personally</p>
-                <p>Impatient</p>
-                <p>Try to do too much at once</p>
-            </div>
-            <div class="column1">
-                <img src="images/job.png" style="width: 50px; height: auto;">
-                <h2>Opportunities</h2>
-                <p>Commitment to further study</p>
-                <p>Supportive family</p>
-                <p>Good position at work</p>
-            </div>
-            <div class="column1">
-                <img src="images/attention.png" style="width: 50px; height: auto;">
-                <h2>Threats</h2>
-                <p>Balancing work and home life</p>
-                <p>What are the priorities?</p>
-                <p>Technology is changing fastly</p>
-            </div>
-        </div>
-    </div>
-    <!-- End #swot -->
 
     <div id="contact">
         <h2>Get in Touch</h2>
@@ -425,16 +368,20 @@
                 <div class="col-sm-5 social">
                     <ul>
                         <li>
-                            <a href="https://github.com/akeesham" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
+                            <a href="https://github.com/akeesham" target="_blank"><i class="fa fa-github"
+                                    aria-hidden="true"></i></a>
                         </li>
                         <li>
-                            <a href="https://www.linkedin.com/in/akeesham/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                            <a href="https://www.linkedin.com/in/akeesham/" target="_blank"><i class="fa fa-linkedin"
+                                    aria-hidden="true"></i></a>
                         </li>
                         <li>
-                            <a href="https://www.facebook.com/akeelevr" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                            <a href="https://www.facebook.com/akeelevr" target="_blank"><i class="fa fa-facebook"
+                                    aria-hidden="true"></i></a>
                         </li>
                         <li>
-                            <a href="https://twitter.com/akee_sham" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                            <a href="https://twitter.com/akee_sham" target="_blank"><i class="fa fa-twitter"
+                                    aria-hidden="true"></i></a>
                         </li>
                     </ul>
                 </div>
