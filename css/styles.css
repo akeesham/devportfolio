@@ -828,7 +828,7 @@ td {
         text-align: center
     }
 
-    #about p {
+    #about p,ul {
         text-align: left
     }
 }
