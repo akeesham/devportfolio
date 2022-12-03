@@ -828,8 +828,11 @@ td {
         text-align: center
     }
 
-    #about p,ul {
+    #about p{
         text-align: left
+    }
+    #about ul {
+        text-align: left;
     }
 }
 
